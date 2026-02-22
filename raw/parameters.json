@@ -1,1 +1,38 @@
-{}
+{
+	"parameter_1": {
+		"name": "sources",
+		"type": "class",
+		"classes": [
+			"bass",
+			"boiling_cafe",
+			"guitar",
+			"microwave",
+			"beep_grill",
+			"bells",
+			"brush",
+			"card",
+			"deodorant",
+			"fan",
+			"generator",
+			"hair_dryer",
+			"keys",
+			"motor",
+			"ocean",
+			"scissors",
+			"sink"
+		]
+	},
+	"parameter_2": {
+		"name": "lpf",
+		"type": "range",
+		"start_cutoff": 500,
+		"end_cutoff": 8000
+	}
+	,
+	"parameter_3": {
+		"name": "intensity",
+		"type": "range",
+		"start_intensity": 100,
+		"end_intensity": 0
+	}
+}

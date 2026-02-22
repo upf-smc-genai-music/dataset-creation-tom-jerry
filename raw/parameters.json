@@ -28,4 +28,11 @@
 		"start_cutoff": 500,
 		"end_cutoff": 8000
 	}
+	,
+	"parameter_3": {
+		"name": "intensity",
+		"type": "range",
+		"start_intensity": 100,
+		"end_intensity": 0
+	}
 }

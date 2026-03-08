@@ -24,15 +24,17 @@
 	},
 	"parameter_2": {
 		"name": "lpf",
-		"type": "range",
-		"start_cutoff": 500,
-		"end_cutoff": 8000
+		"type": "continuous",
+		"min": 500,
+        "max": 8000,
+        "unit": "Hz"
 	}
 	,
 	"parameter_3": {
 		"name": "intensity",
-		"type": "range",
-		"start_intensity": 100,
-		"end_intensity": 0
+		"type": "continuous",
+		"min": 0,
+		"max": 100,
+		"unit": "%"
 	}
 }
